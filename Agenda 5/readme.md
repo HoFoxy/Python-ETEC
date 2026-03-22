@@ -43,7 +43,7 @@ custo mensal = consumo (kWh) × valor do kWh
 
 O programa retornará o consumo mensal e o custo estimado.
 
----
+--- 
 
 ## 🎯 Objetivo
 
