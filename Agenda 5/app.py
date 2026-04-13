@@ -12,4 +12,4 @@ print(f'''
 
 ''')
 
-input('Pressione algo para sair')
+input('Pressione qualquer tecla para sair')
