@@ -1,0 +1,57 @@
+#categorias{ /* Ajusta o tamanho dos containers contendo as colunas com o conteúdo, centralizando seu conteúdo e tornando adaptável a página */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+#titulo{ /* Organiza o container do título e centraliza ele*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto{ /*Define o tamanho máximo dos textos para que não fiquem bagunçados ou desalinhados, define espaçamento e tamanho de fonte */
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+
+.card { /* Ajusta o tamanho de cada imagem com descrição para que não fique esticada e dá espaçamento  */
+    padding: 10px 10px 10px 10px;
+    height: 50%;
+}
+
+img{  /* Define o tamanho das imagens para que não fiquem desprorpocionais, mesmo que de maneira forçada e define borda para melhor nitidez*/
+    width: 300px;
+    height: 400px;
+    border: solid black 2px;
+}
+
+#filmes{ /*Define o tamanho da categoria dentro e alinha conteúdo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    text-align: center;
+
+}
+#musicas{ /*Define o tamanho da categoria dentro e alinha conteúdo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    text-align: center;
+
+}
+#games{ /*Define o tamanho da categoria dentro e alinha conteúdo*/
+    flex-grow: 1;
+    text-align: center;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+h2{
+    margin-bottom: 20px;
+}
